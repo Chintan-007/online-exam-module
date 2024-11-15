@@ -1,5 +1,9 @@
 package com.roima.examination.online_exam_module.model;
 
+//This is the core entity that represents a user of the online examination system.
+//It contains the basic user information like name, email, password, role, etc.
+//This serves as the base class for more specialized user types like Student and Admin.
+
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
